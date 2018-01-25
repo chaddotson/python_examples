@@ -3,6 +3,7 @@
 from os.path import dirname, join
 from jinja2 import Environment, FileSystemLoader
 
+# http://jinja.pocoo.org/docs/2.10/templates/
 
 templates_path = join(dirname(__file__), "templates")
 templating_environment = Environment(loader=FileSystemLoader(templates_path),
